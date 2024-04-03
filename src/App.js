@@ -25,6 +25,7 @@ const App = () => {
       <div className="sidebar">
         <FriendsList />
         <FormAddFriend />
+        <Button>Add Friend</Button>
       </div>
     </div>
   );
@@ -77,6 +78,8 @@ const FormAddFriend = () => {
 
       <label>🌄Image URL</label>
       <input type="text" />
+
+      <Button>Add</Button>
     </form>
   );
 };
